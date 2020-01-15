@@ -15,8 +15,9 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * Command-line tool for signing APKs and for checking whether an APK's signature are expected to
- * verify on Android devices.
+ * Command-line tool for signing APKs
+ *
+ * parameters for main() method: " sign  --out /output-apk-path/output.apk /input-apk-path/input.apk
  */
 public class MyApkSigner {
 

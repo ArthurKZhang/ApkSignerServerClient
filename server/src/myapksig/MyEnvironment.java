@@ -18,9 +18,9 @@ public class MyEnvironment {
 
     public static void loadEnvironmentData() {
         SignerParams signerParams = new SignerParams();
-        signerParams.setKeystoreFile("/Users/zhangyu/Desktop/Untitled");
+        signerParams.setKeystoreFile("/../../Untitled.ks"); //keystore file path
         signerParams.setKeystoreKeyAlias("key0");
-        signerParams.setKeystorePasswordSpec("pass:zhangyu");
+        signerParams.setKeystorePasswordSpec("pass:***");   //keystore access password
 
         try (PasswordRetriever passwordRetriever = new PasswordRetriever()) {
             signerParams.setName("signer #0");
